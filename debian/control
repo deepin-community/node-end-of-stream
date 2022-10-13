@@ -1,0 +1,32 @@
+Source: node-end-of-stream
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 12)
+ , node-once <!nocheck>
+ , node-tape <!nocheck>
+ , nodejs (>= 6)
+ , pkg-js-tools (>= 0.9.12~)
+Standards-Version: 4.4.0
+Homepage: https://github.com/mafintosh/end-of-stream
+Vcs-Git: https://salsa.debian.org/js-team/node-end-of-stream.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-end-of-stream
+
+Package: node-end-of-stream
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs (>= 6)
+ , node-once (>= 1.4.0)
+Description: Invoke a callback when a stream has completed or failed
+ end-of-stream is a Node.js module which calls a callback when a readable,
+ writable, or duplex stream has completed or failed.
+ .
+ Pass a stream and a callback to end-of-stream. Both legacy streams and
+ streams2 are supported.
+ .
+ Node.js is an event-based server-side JavaScript engine.

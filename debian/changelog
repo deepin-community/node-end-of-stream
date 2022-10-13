@@ -1,0 +1,48 @@
+node-end-of-stream (1.4.4-1) unstable; urgency=medium
+
+  * Team upload
+  * Add "Rules-Requires-Root: no"
+  * New upstream version 1.4.4
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 25 Sep 2019 19:46:57 +0200
+
+node-end-of-stream (1.4.3-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * New upstream version 1.4.3
+  * Remove unneeded patch
+  * Add node-tape in build dependencies
+  * Switch test and install to pkg-js-tools
+  * Update debian/copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 24 Sep 2019 21:41:14 +0200
+
+node-end-of-stream (1.4.1-1) unstable; urgency=medium
+
+  * New upstream version
+  * Update Vcs fields for migration to https://salsa.debian.org/
+  * Bump standard version
+  * Bump debhelper compat
+  * Fix nodejs binary
+  * Update copyright
+  * Bump standard version
+  * Destroy rather than close stream (Closes: #918424)
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Thu, 10 Jan 2019 21:27:35 +0100
+
+node-end-of-stream (1.4.0-1) unstable; urgency=medium
+
+  * Fix Vcs-Git/Vcs-Browser
+  * New upstream version
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Thu, 28 Sep 2017 17:23:55 +0530
+
+node-end-of-stream (1.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #753250)
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Fri, 02 Dec 2016 09:42:47 +0000
