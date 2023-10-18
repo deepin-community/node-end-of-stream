@@ -1,3 +1,29 @@
+node-end-of-stream (1.4.4+~1.4.1-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Update standards version to 4.5.0, no changes needed.
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on nodejs.
+    + node-end-of-stream: Drop versioned constraint on node-once and nodejs in
+      Depends.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * debian/watch:
+    * version 4
+    * Fix GitHub tags regex
+    * Fix filenamemangle
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Drop dependency to nodejs
+  * Embed typescript definitions and repack
+
+ -- Yadd <yadd@debian.org>  Mon, 22 Nov 2021 11:31:21 +0100
+
 node-end-of-stream (1.4.4-1) unstable; urgency=medium
 
   * Team upload

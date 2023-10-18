@@ -2,16 +2,21 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: end-of-stream
 Upstream-Contact: https://github.com/mafintosh/end-of-stream/issues
 Source: https://github.com/mafintosh/end-of-stream
+ https://registry.npmjs.org/@types/end-of-stream
 
 Files: *
 Copyright: 2014, Mathias Buus <mathiasbuus@gmail.com>
 License: Expat
 
 Files: debian/*
-Copyright:
+Copyright: 
  2014 Andrew Kelley <superjoe30@gmail.com>
  2016-2018 Paolo Greppi <paolo.greppi@libpf.com>
- 2019, Xavier Guimard <yadd@debian.org>
+ 2019, Yadd <yadd@debian.org>
+License: Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat
